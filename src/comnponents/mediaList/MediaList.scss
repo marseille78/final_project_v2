@@ -1,0 +1,13 @@
+.media {
+  &-item {
+    width: 240px;
+    height: 240px;
+    position: relative;
+
+    &__img {
+      width: 10%;
+      height: 100%;
+      display: block;
+    }
+  }
+}

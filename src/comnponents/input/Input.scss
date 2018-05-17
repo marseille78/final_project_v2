@@ -1,0 +1,21 @@
+.input {
+  border: 1px solid #dbdbdb;
+  position: relative;
+  border-radius: 5px;
+  &__icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0.5rem;
+  }
+  &__native-element {
+    border: none;
+    width: 100%;
+    display: block;
+    padding: 0.5rem 1rem;
+    background: #fafafa;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+  }
+}

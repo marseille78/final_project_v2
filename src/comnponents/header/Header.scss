@@ -1,0 +1,21 @@
+@import '../../styles/variables';
+
+.app-header {
+  border-bottom: $default-elements-border;
+  min-height: 3rem;
+  display: flex;
+  justify-content: center;
+  &__content {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: $app-content-max-width;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__link {
+    &_active {
+      color: red;
+    }
+  }
+}

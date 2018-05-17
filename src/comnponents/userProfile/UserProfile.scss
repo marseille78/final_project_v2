@@ -1,0 +1,35 @@
+.user-profile {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 5rem 0;
+  &__avatar {
+    flex: 1 1 20%;
+    display: flex;
+    align-items: center;
+    > img {
+      border-radius: 50%;
+      height: 120px;
+      width: 120px;
+    }
+  }
+  &__details {
+    flex: 1 1 80%;
+    padding: 0 1rem;
+  }
+  &__name {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+  &__row {
+    margin: 1rem 0;
+  }
+  &__statistic {
+    display: flex;
+    justify-content: space-between;
+    > * {
+      flex: 1 1 33%;
+    }
+  }
+}
